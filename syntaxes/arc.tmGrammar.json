@@ -44,7 +44,7 @@
       "patterns": [
         {
           "name": "section.arc",
-          "match": "^@[A-Za-z0-9_\\-\\.,!\"'/$;:*\\+]+",
+          "match": "^@[a-zA-Z0-9!$%^&*(){}\\[\\]<>\\-_\\+=\\|\\\\:;\"',\\.\\?/`~]+",
           "captures": {
             "0": {"name": "entity.name.section.arc"},
             "1": {"name": "punctuation.at-sign.arc"}
@@ -64,7 +64,7 @@
         },
         {
           "name": "scalar.string.arc",
-          "begin": "^[A-Za-z0-9_\\-\\.,!\"'/$;:*\\+]+(?=(\\s+#|\\s+$))",
+          "begin": "^[a-zA-Z0-9!$%^&*(){}\\[\\]<>\\-_\\+=\\|\\\\:;\"',\\.\\?/`~]+(?=(\\s+#|\\s+$))",
           "end": "(?=( #|$))",
           "captures": {
             "0": {"name": "string.unquoted.arc"}
@@ -76,7 +76,7 @@
       "patterns": [
         {
           "name": "vector.property.arc",
-          "begin": "^\\s{0,2}?[A-Za-z0-9_\\-\\.,!\"'/$;:*\\+]+(?=\\s)",
+          "begin": "^\\s{0,2}?[a-zA-Z0-9!$%^&*(){}\\[\\]<>\\-_\\+=\\|\\\\:;\"',\\.\\?/`~]+(?=\\s)",
           "end": "(?<=\\s)",
           "captures": {
             "0": {"name": "variable.other.arc"}
@@ -84,7 +84,7 @@
         },
         {
           "name": "vector.value.arc",
-          "begin": "(?<=\\s)[A-Za-z0-9_\\-\\.,!\"'/$;:*\\+]+",
+          "begin": "(?<=\\s)[a-zA-Z0-9!$%^&*(){}\\[\\]<>\\-_\\+=\\|\\\\:;\"',\\.\\?/`~]+",
           "end": "(?<=\\s)",
           "//match": "(?<=\\s).*$",
           "captures": {
