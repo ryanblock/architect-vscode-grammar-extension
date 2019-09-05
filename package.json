@@ -1,36 +1,51 @@
 {
   "name": "architect",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "displayName": "Architect (.arc) syntax highlighter / grammar",
   "description": "Syntax highlighter and grammar extension for Architect file formats, including: .arc, arc.app, .arc-config, and .arc-env",
   "publisher": "Ryan Block",
   "author": "Ryan Block <hello@ryanblock.com>",
   "license": "Apache-2.0",
+  "homepage": "https://github.com/ryanblock/architect-vscode-grammar-extension",
   "repository": {
     "type": "git",
-    "url": "https://github.com//ryanblock/architect-vscode-grammar-extension.git"
+    "url": "https://github.com/ryanblock/architect-vscode-grammar-extension.git"
   },
   "bugs": {
-    "url": "https://github.com//ryanblock/architect-vscode-grammar-extension/issues"
+    "url": "https://github.com/ryanblock/architect-vscode-grammar-extension/issues"
   },
-  "homepage": "https://github.com//ryanblock/architect-vscode-grammar-extension",
   "contributes": {
-    "languages": [{
-      "id": "arc",
-      "aliases": ["Architect", ".arc", "architect"],
-      "extensions": [".arc"],
-      "filenames": [".arc", "arc.app", ".arc-config", ".arc-env"],
-      "firstLine": "^@[A-Za-z0-9_\\-\\.,!\"'/$;:*]+",
-      "configuration": "./arc-format-config.json"
-    }],
-    "grammars": [{
-      "language": "arc",
-      "scopeName": "source.arc",
-      "path": "./syntaxes/arc.tmGrammar.json"
-    }]
+    "languages": [
+      {
+        "id": "arc",
+        "aliases": [
+          "Architect",
+          ".arc",
+          "architect"
+        ],
+        "extensions": [
+          ".arc"
+        ],
+        "filenames": [
+          ".arc",
+          "arc.app",
+          ".arc-config",
+          ".arc-env"
+        ],
+        "firstLine": "^@[A-Za-z0-9_\\-\\.,!\"'/$;:*]+",
+        "configuration": "./arc-format-config.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "arc",
+        "scopeName": "source.arc",
+        "path": "./syntaxes/arc.tmGrammar.json"
+      }
+    ]
   },
   "engines": {
-		"vscode": "^0.10.0"
+    "vscode": "^0.10.0"
   },
   "keywords": [
     "aws",
@@ -41,7 +56,15 @@
   ],
   "categories": [
     "Programming Languages",
-    "Language Packs"
+    "Snippets"
   ],
-  "icon": "./assets/architect-icon-white-transparent.png"
+  "icon": "./assets/architect-icon-white-transparent.png",
+  "galleryBanner": {
+    "color": "#333",
+    "theme": "dark"
+  },
+  "markdown": "github",
+  "devDependencies": {
+    "vsce": "^1.66.0"
+  }
 }
