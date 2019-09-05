@@ -1,0 +1,12 @@
+# A fake .arc-env file
+@testing
+ENV_VAR wOYWfAmfhg07sAVcm
+SUPER_SECRET esTsj9iLKazUi9*6g#+;9FipI0J # So secret.
+
+@staging
+ENV_VAR wOYWfAmfhg07sAVcm
+SUPER_SECRET esTsj9iLKazUi9*6g#+;9FipI0J
+
+@production
+ENV_VAR wOYWfAmfhg07sAVcm
+SUPER_SECRET esTsj9iLKazUi9*6g#+;9FipI0J
