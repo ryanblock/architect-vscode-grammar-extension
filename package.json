@@ -1,6 +1,6 @@
 {
   "name": "architect",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "displayName": "Architect (.arc) syntax highlighter / grammar",
   "description": "Syntax highlighter and grammar extension for Architect file formats, including: .arc, arc.app, .arc-config, and .arc-env",
   "publisher": "ryanblock",
