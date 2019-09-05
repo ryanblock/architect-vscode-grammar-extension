@@ -1,6 +1,6 @@
 # Architect (.arc) VS Code syntax highlighter / grammar extension
 
-<img src="./assets/architect-logo-black-white-outline-transparent.png" width=500>
+<img src="https://raw.githubusercontent.com/ryanblock/architect-vscode-grammar-extension/master/assets/architect-logo-black-white-outline-transparent.png" width=500>
 
 
 ## Syntax extension for the [Architect serverless framework format](https://arc.codes)
