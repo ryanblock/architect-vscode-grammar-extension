@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "displayName": "Architect (.arc) syntax highlighter / grammar",
   "description": "Syntax highlighter and grammar extension for Architect file formats, including: .arc, arc.app, .arc-config, and .arc-env",
-  "publisher": "Ryan Block",
+  "publisher": "ryanblock",
   "author": "Ryan Block <hello@ryanblock.com>",
   "license": "Apache-2.0",
   "homepage": "https://github.com/ryanblock/architect-vscode-grammar-extension",
