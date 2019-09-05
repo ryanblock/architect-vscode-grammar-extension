@@ -58,7 +58,7 @@
     "Programming Languages",
     "Snippets"
   ],
-  "icon": "./assets/architect-icon-white-transparent.png",
+  "icon": "assets/architect-icon-white-transparent.png",
   "galleryBanner": {
     "color": "#333",
     "theme": "dark"
