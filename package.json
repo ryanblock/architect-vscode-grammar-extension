@@ -65,6 +65,6 @@
   },
   "markdown": "github",
   "devDependencies": {
-    "vsce": "^1.66.0"
+    "vsce": "^1.67.1"
   }
 }
